@@ -1,6 +1,8 @@
 {
   "name": "foodd",
   "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
