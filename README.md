@@ -72,8 +72,6 @@ Screenshots can be viewed in [images](https://github.com/iamayan2011/YumCourier/
 
 ![Home Screenshot 2](https://github.com/iamayan2011/YumCourier/blob/main/images/image1.png)
 
-![Home Screenshot 3](https://github.com/iamayan2011/YumCourier/blob/main/images/image1.png)
-
 * Search Results
 ![Search Screenshot](https://github.com/iamayan2011/YumCourier/blob/main/images/chickenSearch.png)
 
