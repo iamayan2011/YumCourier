@@ -1,0 +1,200 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #ff724c !important;
+}
+
+.link{
+  color: #ff724c !important;
+}
+
+.link:hover{
+  color: #ef3400  !important
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+nav.navbar.scrolled {
+  padding: 10px 0;
+  background-color: #FF724C;
+}
+
+.btntxt1 {
+  color: #FF724C !important;
+}
+
+.btnbg {
+  background-color: #FF724C !important;
+  border: 0px !important;
+}
+
+.btnbg:hover{
+  background-color: #ef5f3b !important;
+  border: #ff7a59 solid 1px;
+  /* background:#fff; */
+}
+
+.form1 {
+  background-color: #F4F3F8 !important;
+  border-radius: var(--br-81xl) !important;
+    box-sizing: border-box;
+    border: 3px solid white;
+    outline: 0;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-8xl);
+    padding: 12px !important;
+    
+    
+    color: #2A2C41 !important;
+}
+
+.form2 {
+  background-color: #F4F3F8 !important;
+  border-radius: 15px !important;
+    box-sizing: border-box;
+    border: 1px solid white;
+    outline: 0;
+    font-family: var(--font-poppins);
+    font-size: 1rem;
+    padding: 12px !important;
+    text-align: center;
+    
+    
+    color: #2A2C41 !important;
+}
+ 
+
+.card1 {
+  border-radius: 15px !important;
+  background-color: #FFFF !important;
+  color:#2A2C41 !important;
+}
+
+.cardimg{
+  max-height: 100vh;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.container {
+  color: #2A2C41;
+}
+
+.btncart{
+  padding: 0 !important;
+}
+
+.cartcard1{
+  background-color: white !important;
+  color: #2A2C41 !important;
+}
+
+
+
+
+/* Order CSS */
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+.horizontal-timeline .items {
+  border-top: 2px solid #ddd;
+}
+
+.horizontal-timeline .items .items-list {
+  position: relative;
+  margin-right: 0;
+}
+
+.horizontal-timeline .items .items-list:before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #ddd;
+  top: 0;
+  margin-top: -5px;
+}
+
+.horizontal-timeline .items .items-list {
+  padding-top: 15px;
+}
+
+.border-color-custom {
+  border-color: #f37a27 !important;
+}
+
+/* For Search Bar */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-xl: 1.25rem;
+  --font-size-11xl: 1.88rem;
+  --font-size-3xl: 1.38rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray: #333;
+  --color-royalblue: #4269e2;
+  --color-darkgray: #aaa;
+
+  /* Paddings */
+  --padding-8xl: 1.69rem;
+  --padding-22xl-4: 2.59rem;
+  --padding-13xl-1: 2.01rem;
+
+  /* Border radiuses */
+  --br-481xl: 500px;
+  --br-81xl: 100px;
+}
