@@ -18,6 +18,7 @@ The app has following features:
     * Regular/ Medium/ Large
 * Add To Cart option (Using Redux toolkit).
 * Daynamic Prizes according to number of items and size option selected.
+* Increase/ Decrease/ Delete Item directly from the Cart.
 * Place Order option (Using Redux Toolkit)
 
 
