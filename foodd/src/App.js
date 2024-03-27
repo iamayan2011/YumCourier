@@ -24,7 +24,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://yumcourier-backend1.onrender.com/")
+    fetch("https://yumcourier-backend1.onrender.com")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   },[]);
