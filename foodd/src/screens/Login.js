@@ -210,7 +210,7 @@ export default function Login() {
           alt={'Login Image'}
           objectFit={'cover'}
           src={
-            'https://source.unsplash.com/random/900x700/?burger'
+            'https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg'
           }
         />
       </Flex>

@@ -37,7 +37,7 @@ export default function NavBar() {
 
   return (
     <div>
-      <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+      <Navbar expand="lg" className={scrolled ? "scrolled": "max-container padding-container"}>
         <div className="container-fluid">
         <img src="logo-no-background.png" alt="YumCourier"  className="btn mx-2 active" style={{height:"45px",objectFit: "fill"}} />
           <button

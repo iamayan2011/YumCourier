@@ -11,8 +11,16 @@ export default function Home() {
   const [foodCat, setFoodCat] = useState([]);
   const [foodItem, setFoodItem] = useState([]);
 
+  // const loadData = async () => {
+  //   let response = await fetch("https://yumcourier-backend1.onrender.com/api/foodData", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //   });
+
   const loadData = async () => {
-    let response = await fetch("https://yumcourier-backend1.onrender.com/api/foodData", {
+    let response = await fetch("https://yumcourier-backend1.onrender.com/api/foodData", { 
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -63,21 +71,21 @@ export default function Home() {
 
             <div className="carousel-item active">
               <img
-                src="https://source.unsplash.com/random/900x700/?burger"
+                src="https://thumbs.dreamstime.com/b/veggie-beet-quinoa-burger-avocado-51974112.jpg"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900x700/?pizza"
+                src="https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900x700/?pasta"
+                src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?semt=ais_hybrid&w=740"
                 className="d-block w-100"
                 alt="..."
               />

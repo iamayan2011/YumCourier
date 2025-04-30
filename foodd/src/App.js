@@ -23,8 +23,14 @@ import { useEffect, useState } from "react";
 function App() {
   const [message, setMessage] = useState("");
 
+  // useEffect(() => {
+  //   fetch("https://yumcourier-backend1.onrender.com")
+  //     .then((res) => res.json())
+  //     .then((data) => setMessage(data.message));
+  // },[]);
+
   useEffect(() => {
-    fetch("https://yumcourier-backend1.onrender.com")
+    fetch("http://localhost:4000")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   },[]);
